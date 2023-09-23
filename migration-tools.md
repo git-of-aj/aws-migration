@@ -15,6 +15,7 @@ https://aws.amazon.com/migration-hub/features/?nc=nsb&pg=ln
   - Use to monitor the progress and status of migrations across your organization.
 
 **AWS Application Discovery Service:**
+- https://docs.aws.amazon.com/application-discovery/latest/userguide/console-walkthrough.html
 - **Purpose:** Helps discover and collect data about your on-premises applications and their dependencies.
 - **Use Cases:**
   - Use when you need to understand the application landscape in your on-premises environment.
