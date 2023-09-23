@@ -1,6 +1,7 @@
 ## aws mgn 
 https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html
-
+## aws dms
+https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html
 ## Assesment - AWS Mogration Hub
 https://aws.amazon.com/migration-hub/features/?nc=nsb&pg=ln
 **AWS Migration Evaluator:**
