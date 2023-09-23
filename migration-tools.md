@@ -1,3 +1,6 @@
+## migration tools
+https://docs.aws.amazon.com/whitepapers/latest/aws-overview/migration-services.html#aws-server-migration-service
+
 ## aws mgn 
 https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html
 - Steps for AWS MGN : https://docs.aws.amazon.com/mgn/latest/ug/launching-test-gs.html
