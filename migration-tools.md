@@ -6,6 +6,8 @@ https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.
   
 ## aws dms
 https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html
+
+- demo : RDS TTO DYNAMODB https://aws.amazon.com/tutorials/break-free-from-legacy-databases/migrate-sql-server-to-amazon-dynamodb/
 ## Assesment - AWS Mogration Hub
 https://aws.amazon.com/migration-hub/features/?nc=nsb&pg=ln
 **AWS Migration Evaluator:**
