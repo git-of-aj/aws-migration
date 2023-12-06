@@ -9,8 +9,11 @@ https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.
   
 ## aws dms
 https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html
-
 - demo : RDS TTO DYNAMODB https://aws.amazon.com/tutorials/break-free-from-legacy-databases/migrate-sql-server-to-amazon-dynamodb/
+### Concepts:
+1. Replication instance Or Go Via DMS Serverless Replication instance : Docs: https://docs.aws.amazon.com/dms/latest/userguide/CHAP_ReplicationInstance.html
+![image](https://github.com/Ananyojha/aws-migration/assets/76782360/3db7cca4-0ef3-491d-8103-a15a7b853ec3)
+
 ## Assesment - AWS Mogration Hub
 https://aws.amazon.com/migration-hub/features/?nc=nsb&pg=ln
 **AWS Migration Evaluator:**
