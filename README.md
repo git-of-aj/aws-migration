@@ -21,7 +21,7 @@ MS SQL or Aurora in AWS
 
 - Refactor
 
-Database Migration:
+## Database Migration: Amazon Linux 2023 has pre installed Mysql
 
 * AWS SCT: Schema Conversion tool 
 - Required only for heterogenous migration
