@@ -9,6 +9,7 @@ https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.
 - Steps for AWS MGN : https://docs.aws.amazon.com/mgn/latest/ug/launching-test-gs.html
 - After you have added all of your source servers and configured their launch settings, you are ready to launch a test instance. It is crucial to test the migration of your source servers to AWS prior to initiating a cutover in order to verify that your source servers function properly within the AWS environment
 - DOCS FOR TEST INSTANCES: https://docs.aws.amazon.com/mgn/latest/ug/launching-test-gs.html
+- demo: wordpress azure to aws: https://aws.amazon.com/blogs/mt/migrate-a-wordpress-blog-from-azure-to-aws-using-aws-application-migration-service/
   
 ## aws dms
 https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html
