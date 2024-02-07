@@ -10,7 +10,18 @@ https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.
 - After you have added all of your source servers and configured their launch settings, you are ready to launch a test instance. It is crucial to test the migration of your source servers to AWS prior to initiating a cutover in order to verify that your source servers function properly within the AWS environment
 - DOCS FOR TEST INSTANCES: https://docs.aws.amazon.com/mgn/latest/ug/launching-test-gs.html
 - demo: wordpress azure to aws: https://aws.amazon.com/blogs/mt/migrate-a-wordpress-blog-from-azure-to-aws-using-aws-application-migration-service/
-  
+------------------
+Basics - https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html
+- Replication Template: Creating your replication template
+
+2. To initialize AWS Application Migration Service, you must first create a replication template.
+
+3. The replication template determines how data replication will work for each new server you add. The settings configured in this template will be applied to each newly added source server.
+
+### few resources - https://aws.amazon.com/application-migration-service/resources/#Blog_posts_.26_articles
+### Migration Workflow - https://docs.aws.amazon.com/mgn/latest/ug/migration-workflow-gs.html
+### Best Practices - https://docs.aws.amazon.com/mgn/latest/ug/best_practices_mgn.html
+
 ## aws dms
 https://docs.aws.amazon.com/dms/latest/userguide/Welcome.html
 - demo : RDS TTO DYNAMODB https://aws.amazon.com/tutorials/break-free-from-legacy-databases/migrate-sql-server-to-amazon-dynamodb/
