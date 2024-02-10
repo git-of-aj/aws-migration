@@ -16,3 +16,5 @@ https://aws.amazon.com/migration-acceleration-program/
 **Example here :**
 ![](https://docs.aws.amazon.com/images/prescriptive-guidance/latest/application-portfolio-assessment-guide/images/7Rs-DecisionTree-baseModel.png)
 - [Read Here](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/)
+
+## Cut-Over Etc B4 MGN Service
