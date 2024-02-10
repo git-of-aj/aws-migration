@@ -1,6 +1,9 @@
 https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/
 - AWS Docs - https://docs.aws.amazon.com/prescriptive-guidance/latest/large-migration-guide/migration-strategies.html
 
+## Green field vs Brownfield
+- [Capgemini](https://www.capgemini.com/se-en/insights/expert-perspectives/confusion-in-the-cloud-greenfield-or-brownfield/)
+
 ## How to Migrate:
 [How to Migrate](https://aws.amazon.com/cloud-migration/how-to-migrate/)
 
