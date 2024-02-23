@@ -68,14 +68,14 @@ project Plan proposal --> presales
 1. Assesment phase 55k
 - what we have now ?
 2. Mobile phase (depends generally min 6 month) => upto 400k max cap  ==> cosulting partners suffer if you strech too long
-bigger ARR ==> big time taken
-deep discovery --> retain or Retire 
-landing zone ==> no UAT / Prd / SIT ==> Only 1 ==> genrally takes 90 days
+  - bigger ARR ==> big time taken
+- deep discovery --> retain or Retire 
+- landing zone ==> no UAT / Prd / SIT ==> Only 1 ==> genrally takes 90 days
 * not more than 200 vm => don't create a landing zone
-checklist of requirements while creating a landing zone
-war
-security risk and compliance review 
-automation needs requiremnet check
+- checklist of requirements while creating a landing zone
+- war
+- security risk and compliance review 
+- automation needs requiremnet check
 sample poc -- stateless and stateful app ==> customer tells these are non critical apps ==> move them
 - Rehost Here 
 
@@ -94,9 +94,9 @@ output of dicovery assesment phase as input to mobiise
 Azure BCIF
 
 
-Terraform Cloud and Vault as a policy standard
-Sentinel policies of Terraform Cloud
-Vault Standard - for secret management
+- Terraform Cloud and Vault as a policy standard
+- Sentinel policies of Terraform Cloud
+- Vault Standard - for secret management
 
 ====================
 
@@ -115,3 +115,20 @@ https://app.diagrams.net/#G1pmOloRLxsjjJD45oCpgVjGVy7dX32Tdh
 ===============================================================
 
 Patching Prod and non prod vm using ivanty and azure update 
+
+---------------------------------------------------------------
+
+# AWS Migration Tools 
+1. **Discovery**:
+- AWS ADS requires you do to task while Migration evaluator gives  a ready to use business case
+- Key Differences:
+
+- Purpose: Migration Evaluator focuses on optimizing costs, performance, and resource utilization before migration, while AWS ADS focuses on discovering and collecting information about your on-premises environment to facilitate migration planning.
+- Functionality: Migration Evaluator provides recommendations for optimizing infrastructure, whereas AWS ADS focuses on discovery, dependency mapping, and application profiling.
+- Integration: While AWS ADS integrates with other AWS migration services like SMS, Migration Evaluator is a standalone tool focused on analysis and recommendations
+
+-----------------------
+
+**AWS ADS:** Part of AWS Migration Hub 
+- [AWS Docs](https://docs.aws.amazon.com/migrationhub/latest/ug/whatishub.html)
+
