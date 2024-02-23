@@ -37,7 +37,15 @@ Phase 1.  Create a business Case
 - Gather Customer Requirement
 -  Expand Requirement 
 - Proposal
-- SOW 
+- SOW
+# Tools - 
+1. Assesment: a: Migration Evaluator | b: 
+2. Migration
+3. Modernatisation
+4. Data transfer
+
+# AWS Migration Hub 
+- https://docs.aws.amazon.com/migrationhub/
 
 PHASE 7 : Actual Migration starts:
 1.Discovery
