@@ -118,6 +118,16 @@ Patching Prod and non prod vm using ivanty and azure update
 
 ---------------------------------------------------------------
 
+## The Executives Migration 
+**WHy you need to Migrate?**
+![](https://docs.aws.amazon.com/images/prescriptive-guidance/latest/strategy-large-scale-migrations/images/scope-strategy-timeline.png)
+
+1. Your application teams want to implement new CI/CD pipelines, deploy the latest application stacks, or modernize legacy platforms that are out of support.
+
+2. Your infrastructure team must get out of an aging data center quickly before the lease expires and the provider turns the power off.
+
+3. The board has decided that you need to move to the cloud as a strategic direction, allowing for a fast pace of change in the business’s future.
+
 # AWS Migration Tools 
 1. **Discovery**:
 - AWS ADS requires you do to task while Migration evaluator gives  a ready to use business case
