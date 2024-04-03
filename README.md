@@ -1,5 +1,8 @@
 # aws-migration
-⚠️⚠️⚠️ AWS MGN services creates lot of snapshots !!!!!!!!!!!!! 
+⚠️⚠️⚠️ AWS MGN services creates lot of snapshots !!!!!!!!!!!!!
+
+> manual efforts are prone to 
+compounding errors. This can lead to migration delay, failure, or abandonment. the best results even for small migration via `automation`
 
 # Aws executive guidebook
 - Migrate first, then modernize on AWS except for 
@@ -45,6 +48,42 @@ manage, operate, and grow mission-critical applications on AWS before workloads 
 the cloud. After mobilization, customers have the tools, process, and capability to rehost at 
 
 scale and operate in the cloud.
+
+# mobilize 
+1. Allocate spend: Allocate 70% or more of the cloud spend to the business units or teams 
+
+generating the costs. Spend ownership ensures teams continuously optimize workloads. Use 
+
+practices like dynamic provisioning (e.g., Amazon EC2 Auto Scaling), instance selection (e.g., 
+
+Amazon EC2 Reserved and Spot Instances, Graviton), and moving to serverless and managed 
+
+services. This results in average cost savings of 52% and a 29% increase in SLA consistency 
+
+(e.g., availability, scalability, laten
+2. Cost tracking: Cloud leaders should implement cost tracking using account best practices and 
+
+a tagging strategy for cloud resources. Use AWS Control Tower to create account structures 
+
+that align with business functions and teams, and guardrails to govern usage. Implement a 
+
+resource cost allocation tagging using AWS Cost Categories to greatly simplify cost and usage 
+
+mapping to organizational structure.
+
+Governance: Create governance for tracking cloud spend. Start with the AWS Cloud Financial 
+
+Management suite. Use AWS License Manager to leverage rule-based controls and 
+
+dashboards for cloud license usage visibility. AWS Trusted Advisor can help analyze cloud 
+
+usage and reduce spend with actionable recommendations. Th
+
+-  a set of migration waves where each wave can be 
+
+successfully migrated independently. A migration wave is a set of workloads that can have 
+
+interrelated dependencies, but have no dependencies with workloads outside of the wav
 # Install mariabadb
 ```
 sudo su
