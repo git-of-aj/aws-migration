@@ -1,6 +1,50 @@
 # aws-migration
 ⚠️⚠️⚠️ AWS MGN services creates lot of snapshots !!!!!!!!!!!!! 
 
+# Aws executive guidebook
+- Migrate first, then modernize on AWS except for 
+specialized workloads that require replatforming or refactoring to migrate
+- The Migration Acceleration Program (MAP) is the AWS flagship program for helping 
+
+customers accelerate each step (assess, mobilize, migrate) o
+
+- yor. 
+
+A migration assessment is an automated deep evaluation of digital assets used to create a 
+
+data-driven business case for moving to the cloud. The business case clarifies current data 
+
+center software and infrastructure, is a tool for stakeholder alignment, and identifies cost 
+
+saving opportunities (e.g., software licensing, infrastructure). Business cases deliver a 
+
+comparative analysis of on-premises total cost of ownership (TCO) and projected cloud TCO. 
+
+During an assessment, digital assets (e.g., software, servers, storage) are automatically 
+
+discovered across all environments including on-premises data centers, edge data centers, 
+
+carrier hotels, and colocation facilities. Inventory and utilization (e.g., CPU, memory, 
+
+configuration, storage) data are collected for recommendation synthesis. For example, 
+
+assessments identify cost saving opportunities like overprovisioned (underutilized) workloads 
+
+to right-size in the cloud, idle hosts for removal, and mitigations for costly software licence
+
+- `Migration assessment provides the business case`for moving to the cloud and helps executive 
+
+leaders define migration objectives
+
+- The goal of the `mobilization phase`
+
+is to help organizations build the cloud foundations (e.g., leading, transforming, operating) to 
+
+manage, operate, and grow mission-critical applications on AWS before workloads arrive in 
+
+the cloud. After mobilization, customers have the tools, process, and capability to rehost at 
+
+scale and operate in the cloud.
 # Install mariabadb
 ```
 sudo su
