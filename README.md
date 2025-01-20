@@ -130,6 +130,9 @@ Phase 1.  Create a business Case
 # AWS Migration Hub 
 - https://docs.aws.amazon.com/migrationhub/
 
+![image](https://github.com/user-attachments/assets/35aaa85f-0a02-45fb-a0ba-f42f7d2fdc30)
+
+
 PHASE 7 : Actual Migration starts:
 1.Discovery
 2. Test
