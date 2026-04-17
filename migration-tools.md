@@ -1,10 +1,96 @@
+### VMware
+
+**vSphere = ESXi (compute) + vCenter (management)**
+
+| Component | What it does           |
+| --------- | ---------------------- |
+| ESXi      | Runs virtual machines  |
+| vCenter   | Manages ESXi hosts     |
+| vSphere   | Full platform (bundle) |
+
+---
+
+### 1) What each component *actually* is
+
+#### **ESXi → the engine (hypervisor)**
+
+* Bare-metal (runs directly on physical server)
+* Creates & runs VMs
+* Controls: CPU, RAM, disk, network
+
+**Reality:**
+If ESXi is down → *everything* is down
+
+---
+
+#### **vCenter → the control plane (manager)**
+
+* Centralized management server
+* Manages multiple ESXi hosts
+
+**Enables:**
+
+* vMotion (live migration)
+* HA (failover)
+* DRS (load balancing)
+
+**Reality:**
+
+* 1 host → optional
+* Real infrastructure → essential
+
+---
+
+#### **vSphere → the platform (bundle)**
+
+* Not a single product
+* = ESXi + vCenter + advanced features
+
+---
+
+### TL;DR
+
+* **ESXi = runs VMs**
+* **vCenter = manages at scale**
+* **vSphere = everything together**
+
+
 ## migration tools
+> AWS Migration Hub is no longer open to new customers. For capabilities similar to Migration Hub explore AWS Transform. 
 https://docs.aws.amazon.com/whitepapers/latest/aws-overview/migration-services.html#aws-server-migration-service
 
 ## Ebook:
 https://pages.awscloud.com/rs/112-TZM-766/images/Strategies_for_Accelerating_Migration_eBook.pdf#:~:text=Seven%20Common%20Migration%20Strategies%3A%20%E2%80%9CThe%207%20R%E2%80%99s%E2%80%9D%20One,Relocate%2C%20Rehost%2C%20Replatform%2C%20Refactor%2C%20Repurchase%2C%20Retire%2C%20and%20Retain
 
 ## aws mgn 
+```mermaid
+flowchart TD
+
+A[Setup Service - default replication, launch templates, post-launch templates]
+
+B[Import optional - inventory, waves, apps, EC2 attributes]
+
+C[Source Replication to AWS]
+
+C1[Option 1 - install agent manually]
+C2[Option 2 - use MGN Connector]
+C3[Option 3 - agentless via vCenter]
+
+D[Test - launch EC2 test instances and validate]
+
+E[Cutover - launch production EC2 instances]
+
+F[Finalize - remove agents and complete migration]
+
+A --> B --> C
+C --> C1
+C --> C2
+C --> C3
+C1 --> D
+C2 --> D
+C3 --> D
+D --> E --> F
+```
 https://docs.aws.amazon.com/mgn/latest/ug/what-is-application-migration-service.html
 - Steps for AWS MGN : https://docs.aws.amazon.com/mgn/latest/ug/launching-test-gs.html
 - After you have added all of your source servers and configured their launch settings, you are ready to launch a test instance. It is crucial to test the migration of your source servers to AWS prior to initiating a cutover in order to verify that your source servers function properly within the AWS environment
