@@ -91,7 +91,7 @@ AWS Migration Acceleration Program (MAP)
 
 output of dicovery assesment phase as input to mobiise
 
-Azure BCIF
+- Microsoft ECIF stands for End Customer Investment Funds (formerly known as BIF or CIF). It is a field-led investment program by Microsoft designed to help enterprise customers accelerate cloud migration, proof-of-concept (PoC) projects, workshops, and the adoption of Azure, Microsoft Fabric, AI/RAG deployments, and security workloads
 
 
 - Terraform Cloud and Vault as a policy standard
